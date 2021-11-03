@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    height:1000px;
+    background-image: url(https://image.architonic.com/prj2-3/20088195/one-cu-interior-design-lab-poly-the-landscape-mansion-architonic-003-01-arcit18.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 7, 6, 0.671);
+}
+.divizion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box{ 
+    width: 100%;
+    text-align: center;
+    margin: 250px auto;
+}
+.box h1{
+    font-size: 60px;
+}
+.box p{
+    color: white;
+    width:400px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.box a {
+    font-size: 20px;
+    padding: 5px 50px;
+    margin:auto;
+    margin-top: 20px;
+    border:2px solid rgb(45, 243, 177);
+    border-radius: 20px;   
+}
+.color{
+    background-color:rgb(45, 243, 177) ;
+}   
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+    list-style: none;
+}
+nav ul li{
+    padding-right: 50px;
+}
+.logo{
+    font-size: 50px;
+    color: #fff;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left:50px
+}
+
+.main{
+    width: 1000px;
+    height: 700px;
+    background-color: lightblue;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.maind{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+}
+.div1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 60px;
+}
+.divi2{
+    background-color: green;
+    width: 100%;
+    height: 60px;
+}
+.maind2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -70px;
+    
+}
+.divi3{
+    background-color: rgb(75, 158, 36);
+    width: 250px;
+    height: 350px;
+    display: flex;
+    
+}
+.divi4{
+    background-color: rgb(48, 141, 179);
+    width:680px;
+    margin-left:30px;
+    height: 150px;
+    display: flex;
+    
+    
+
+    
+}
+.divi5{
+    background-color: blue;
+    width:680px;
+    margin-left:280px;
+    margin-top: -180px;
+    height: 150px; 
+    display: flex;
+    
+}
+.divi6{
+    background-color: aquamarine;
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+    display: flex;
+    
+}
+h1{
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    
+}
